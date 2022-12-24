@@ -1,0 +1,37 @@
+#foliowrap {
+  position: relative
+}
+#foliowrap .item {
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+  background-color: #dbdbdb;
+  color:#000
+}
+#foliowrap section {
+  position: relative;
+}
+#foliowrap h3,
+#foliowrap p {
+  padding: 0.8em;
+  padding-bottom: 0.5em;
+  text-align:center;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+#foliowrap h4 {
+  font-family: Arial;
+  margin: 0;
+  padding-bottom: 0;
+  position: relative;
+}
+#foliowrap h4:after {
+  position: absolute;
+  width: 100%;
+  content: "";
+  height: 2px;
+  right: 0;
+  top: 0;
+  background-color: #465866;
+}
+#folio-single .pitem {
+  box-shadow: -8px -8px 0 0 #53bd99, 8px 8px 0 0 #465866;
+}
